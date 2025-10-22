@@ -10,13 +10,13 @@
   Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté.
 */
 function saluer(nom) {
-  if(n = nom){
+  if(nom){
     console.log("Bonjour, " + nom);
   } else { 
     console.log("Bonjour, inconnu")
   }
 }
-saluer("candide");
+saluer("candie");
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { saluer }
