@@ -8,6 +8,7 @@
   Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté.
 */
 function multiplication(a, b) {
+
   // Vérifier le nombre d'arguments
   if (arguments.length !== 2) return undefined;
 
@@ -17,6 +18,7 @@ function multiplication(a, b) {
 
   return a * b;
 }
+console.log(multiplication(13, 4));
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { multiplication }
