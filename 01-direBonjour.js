@@ -12,7 +12,7 @@
   la fonction par son implémentation. Le placeholder lève une erreur explicite pour
   indiquer que le code n'est pas encore implémenté.
 */
-function direBonjour(n) {
+function direBonjour() {
   console.log("Bonjour le monde");
 }
 direBonjour();
